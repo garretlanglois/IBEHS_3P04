@@ -6,7 +6,7 @@ WebsocketsClient client;
 void setup() {
   Serial.begin(115200);
 
-  client.connect("ws://192.168.x.x:5000/socket.io/?EIO=4&transport=websocket");
+  client.connect("ws://127.0.0.1:5000/socket.io/?EIO=4&transport=websocket");
 }
 
 void loop() {
