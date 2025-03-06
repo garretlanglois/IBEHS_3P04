@@ -1,1 +1,0 @@
-        # Simulate sensor/Arduino data
